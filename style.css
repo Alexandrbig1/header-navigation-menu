@@ -98,6 +98,9 @@ html {
   overflow: hidden;
   transform: scaleX(0);
   transform-origin: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .change .nav-item {
@@ -129,10 +132,6 @@ html {
 }
 
 .nav-item span {
-  position: absolute;
-  top: 50%;
-  left: 3rem;
-  transform: translateY(-50%);
   font-family: 'Titillium Web', sans-serif;
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
@@ -169,13 +168,9 @@ html {
 .nav-item img {
   width: 11rem;
   height: 11rem;
-  object-fit: cover;
-  position: absolute;
-  top: 50%;
-  right: -3rem;
-  transform: translateY(-50%);
   opacity: 0;
   visibility: hidden;
+  object-fit: cover;
 }
 
 .change .nav-item img {
