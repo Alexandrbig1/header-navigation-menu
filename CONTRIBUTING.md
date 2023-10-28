@@ -64,4 +64,3 @@ Certainly! Here's a step-by-step guide on how to contribute to a GitHub reposito
      git push origin main
      ```
 
-Remember, these are general steps, and the specific process might vary slightly based on the repository and the project's guidelines. Always refer to the project's documentation for any specific contribution guidelines they might have.
