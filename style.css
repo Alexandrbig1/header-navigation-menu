@@ -286,6 +286,15 @@ html {
   .header h1 {
     font-size: 7rem;
   }
+  .img-right {
+    bottom: 8rem;
+  }
+  .plate {
+    width: 80%;
+    height: 80%;
+    bottom: 0;
+    right: -30rem;
+  }
 }
 
 @media (max-width: 820px) {
