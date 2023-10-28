@@ -82,6 +82,7 @@ html {
   left: 5rem;
   display: flex;
   flex-direction: column;
+  z-index:3;
 }
 .nav-item {
   flex: 1;
@@ -200,6 +201,7 @@ html {
   right: -20%;
   border-radius: 50% 0 0 50%;
   transform: rotateZ(-30deg);
+  z-index: 1;
 }
 @media (max-width: 820px) {
   .header {
@@ -262,6 +264,8 @@ html {
   }
 
   .img-right {
+    bottom: 15rem;
+    z-index: 2;
     bottom: 10rem;
   }
 
