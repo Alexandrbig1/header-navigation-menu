@@ -299,12 +299,12 @@ html {
   }
 
   .img-right {
-    bottom: 15rem;
+    bottom: 10rem;
   }
 
   .plate {
     width: 90%;
-    height: 50%;
+    height: 60%;
     bottom: 0;
     right: -30rem;
   }
