@@ -24,3 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
 });
+
+const content = document.getElementsByClassName('new');
+
+var i;
+for( i = 0; i < content.length; i++){
+
+    content[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+    })
+};
