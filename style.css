@@ -238,6 +238,19 @@ html {
   background-color: #333;
 }
 
+.header .new .para {
+  height: 0px;
+  overflow: hidden;
+  width: 100%;
+  transition: .5s;
+  font-size: 1.6rem;
+  margin-left: 37px;
+}
+
+.header .new.active .para {
+  height: 50px;
+}
+
 .img-right {
   position: absolute;
   right: -10%;
