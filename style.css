@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Quicksand:wght@300;400;500&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,12 @@ html {
   font-size: 62.5%;
 }
 
+h1{
+  font-family: "Titillium Web", sans-serif;
+}
+.parahead{
+  font-family: "Titillium Web";
+}
 .menu-img{
   width: 20px;
 }
